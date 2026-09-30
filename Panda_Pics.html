@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Poster</title>
+
+  <style>
+  
+  .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+	
+.left-top h2 {
+  text-align: left;
+  font-size: 4.65px;
+  line-height: 1;
+  margin-bottom: -8px;
+  margin-left: 0px;
+}
+
+.right-top h2 {
+  text-align: right;
+  font-size: 4.65px;
+  line-height: 1;
+  margin-bottom: -1px;
+  margin-right: 0px;
+}
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9e7e7;
+      font-family: Arial, sans-serif;
+    }
+
+    .poster {
+      width: 120px;
+      height: 150px;
+      padding: 7px;
+      background: #fff;
+      box-shadow: 7px 8px 8px rgba(0, 0, 0, 0.25);
+      position: relative;
+    }
+
+    .top-bar {
+      height: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1px 3px;
+      color: #777;
+      font-size: 4.3px;
+      letter-spacing: 0.15px;
+    }
+
+    .top-bar .brand {
+      color: #252525;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .image-area {
+      width: 106px;
+      height: 113px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      gap: 3px;
+    }
+
+    .row-top {
+      height: 44px;
+    }
+
+    .row-middle {
+      height: 28px;
+    }
+
+    .row-bottom {
+      height: 38px;
+    }
+
+    .tile {
+      flex: none;
+      background-image: url("cute_panda_v2.jpg");
+      background-repeat: no-repeat;
+      background-size: 106px 113px;
+      overflow: hidden;
+    }
+
+    .a {
+      width: 19px;
+      background-position: 0% 0%;
+    }
+
+    .b {
+      width: 16px;
+      background-position: 18% 5%;
+    }
+
+    .c {
+      width: 28px;
+      background-position: 45% 8%;
+    }
+
+    .d {
+      width: 16px;
+      background-position: 70% 4%;
+    }
+
+    .e {
+      width: 22px;
+      background-position: 100% 0%;
+    }
+
+    .f {
+      width: 19px;
+      background-position: 3% 52%;
+    }
+
+    .g {
+      width: 23px;
+      background-position: 35% 45%;
+    }
+
+    .h {
+      width: 19px;
+      background-position: 61% 48%;
+    }
+
+    .i {
+      width: 22px;
+      background-position: 100% 48%;
+    }
+
+    .j {
+      width: 30px;
+      background-position: 24% 100%;
+    }
+
+    .k {
+      width: 18px;
+      background-position: 57% 100%;
+    }
+
+    .l {
+      width: 22px;
+      background-position: 100% 100%;
+    }
+
+    .headline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 51px;
+      height: 30px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 5;
+    }
+
+    .headline h1 {
+      margin: 0;
+      color: #202020;
+      font-size: 10.5px;
+      line-height: 10px;
+      font-weight: 800;
+      letter-spacing: 0.7px;
+    }
+
+    .headline p {
+      margin: 3px 0 0;
+      color: #333;
+      font-size: 2.8px;
+      line-height: 3px;
+      letter-spacing: 2px;
+    }
+
+    .row-middle .f {
+      width: 19px;
+    }
+
+    .row-middle .g {
+      width: 24px;
+    }
+
+    .row-middle .h {
+      width: 18px;
+    }
+
+    .row-middle .i {
+      width: 39px;
+    }
+
+    .row-bottom .j {
+      width: 29px;
+    }
+
+    .row-bottom .k {
+      width: 18px;
+    }
+
+    .row-bottom .l {
+      width: 50px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="top">
+	  <div class="left-top">
+        <h2>www.panda.com</h2>
+		
+      <div class="right-top">
+        <h2>PANDA 2026</h2>
+		
+  <div class="poster">
+
+    <div class="image-area">
+
+      <div class="row row-top">
+        <div class="tile a"></div>
+        <div class="tile b"></div>
+        <div class="tile c"></div>
+        <div class="tile d"></div>
+        <div class="tile e"></div>
+      </div>
+
+      <div class="row row-middle">
+        <div class="tile f"></div>
+        <div class="tile g"></div>
+        <div class="tile h"></div>
+        <div class="tile i"></div>
+      </div>
+
+      <div class="row row-bottom">
+        <div class="tile j"></div>
+        <div class="tile k"></div>
+        <div class="tile l"></div>
+      </div>
+
+    </div>
+
+    <div class="headline">
+      <h1>PANDAS</h1>
+      <p>CUTE BEARS</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
